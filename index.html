@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画布</title>
+</head>
+<body>
+
+<canvas  id="myCanvas" width="300px" height="300px " style="border: 1px solid black ; "></canvas>
+
+​<script>
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(150,150,100,0,2*Math.PI);
+    ctx.stroke();
+
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(100,120,20,0,2*Math.PI);
+    ctx.stroke();
+
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(150,155,10,0,2*Math.PI);
+    ctx.stroke();
+
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(200,120,20,0,2*Math.PI);
+    ctx.stroke();
+
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(150,190,20,0,Math.PI);
+    ctx.stroke();
+
+
+</script>
+</body>
+</html>
